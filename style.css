@@ -41,6 +41,12 @@ header {
     box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.5);
 }
 
+.logo {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 ul {
     margin: 20px;
 }
@@ -54,6 +60,9 @@ li {
     width: 25px;
     height: 25px;
     cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: -29px;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -76,6 +85,14 @@ li {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: black;
+}
+
+.main-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
 }
 
 a {
@@ -127,17 +144,19 @@ h1 {
 
 }
 
-h2 {
+.frontend-h2 {
+    margin: auto;
     font-size: 28px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .greenbox {
-    width: 40vh;
+    display: flex;
+    margin: auto;
+    width: 30vh;
     height: 6vh;
     background-color: #88B04B;
-    padding-top: 15px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
