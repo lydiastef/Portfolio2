@@ -1,5 +1,8 @@
-// Getting access to these from html:
+//==================================
+//         Hamburger Menu
+//==================================
 
+// Getting access to these from html:
 const hamburger = document.querySelector(".hamburger");
 const mainMenu = document.querySelector(".mainMenu");
 
@@ -15,3 +18,21 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         hamburger.classList.remove("active");
         mainMenu.classList.remove("active");
     })
+
+//===================================
+//       Links - Smooth Scroll
+//===================================
+
+/*$(document).ready(function(){
+    $("#about").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+          window.location.hash = hash;
+        });
+      }
+    });
+  });*/

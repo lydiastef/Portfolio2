@@ -152,6 +152,24 @@ h1 {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+/*About section*/
+#about {
+    margin: 30px 30px 30px 40px;
+    border-bottom: solid #88B04B;
+}
+
+.about-h1 {
+    text-align: center;
+}
+
+.about-p {
+    margin-top: 25px;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
 @media screen and (min-width: 750px) {
     .navbar {
         position: absolute;
@@ -162,10 +180,10 @@ h1 {
     .mainMenu {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
         transition: 0.3s;
         box-shadow: none;
+        top: 15px;
         left: 30px;
         width: 70%;
         margin-left: 140px;
@@ -243,6 +261,14 @@ h1 {
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+
+    #about {
+        margin: 160px 40px 40px 60px;
+    }
+
+    .about-p {
+        padding-bottom: 40px;
     }
 
 }
